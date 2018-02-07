@@ -12,7 +12,7 @@
        (cons new-sum (lazy-seq (tri* new-sum (inc n)))))))
 
 (def tri (tri*))
-(prn (take 5 tri))
+;(prn (take 5 tri))
 
 (defn triangular?
   "Is the number triangular? e.g. 1, 3, 6, 10, 15, etc"
@@ -298,4 +298,5 @@
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  (println "Hello, World!"))
+  (println "Hey, get ready to play the peg game!")
+  (prompt-rows))
