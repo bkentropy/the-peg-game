@@ -1,11 +1,12 @@
 # peg-game
 
 This is a repl based version of the game you play at Cracker Barrels around the states.
-You have a start board, you then select the space you are at and where you want to move.
+You have a start board, then select the peg you want to move and where you want that peg to go.
 
 ## Usage
 
-Need more details here.
+run `lein repl`
+then call `(prompt-rows)`
 
 ## Examples
 
